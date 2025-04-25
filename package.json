@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Rest API in TS using Prisma",
   "main": "dist/index.js",
+  "keywords": [],
+  "author": "Fabio Rodrigues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiorodriguesdev/prisma-rest-api.git"
+  },
   "scripts": {
     "dev": "prisma generate && tsx watch src/index.ts",
     "build": "prisma generate && prisma db push && tsc",
@@ -13,9 +20,9 @@
     "prisma:studio": "prisma studio",
     "postinstall": "prisma generate && prisma db push"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@hono/node-server": "^1.8.2",
     "@prisma/client": "^6.6.0",

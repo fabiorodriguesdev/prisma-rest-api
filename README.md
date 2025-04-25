@@ -17,8 +17,8 @@ This project is designed to help students learn backend development using modern
 
 Before you begin, ensure you have the following installed:
 
-- Node.js (v18 or higher)
-- npm or yarn
+- Node.js (v20 or higher)
+- npm
 - SQLite database
 
 ## 🛠️ Setup
