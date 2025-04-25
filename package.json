@@ -1,0 +1,31 @@
+{
+  "name": "prisma-rest-api",
+  "version": "1.0.0",
+  "description": "Rest API in TS using Prisma",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "prisma generate && tsx watch src/index.ts",
+    "build": "prisma generate && prisma db push && tsc",
+    "start": "node dist/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:push": "prisma db push",
+    "prisma:studio": "prisma studio",
+    "postinstall": "prisma generate && prisma db push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.8.2",
+    "@prisma/client": "^6.6.0",
+    "helmet": "^8.1.0",
+    "hono": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "prisma": "^6.6.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}
