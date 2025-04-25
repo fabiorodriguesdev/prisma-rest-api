@@ -1,0 +1,35 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.language": "en",
+  "cSpell.enabled": true,
+  "cSpell.allowCompoundWords": true,
+  "cSpell.ignorePaths": ["node_modules", "package-lock.json", "dist", "build", "coverage"],
+  "cSpell.words": [
+    "dbaeumer",
+    "eamodio",
+    "esbenp",
+    "eslint",
+    "humao",
+    "kohler",
+    "prettier",
+    "prisma",
+    "tsx",
+    "typescript",
+    "vscode",
+    "yoavbls"
+  ]
+}

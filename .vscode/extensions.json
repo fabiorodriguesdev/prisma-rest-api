@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "prisma.prisma",
+    "streetsidesoftware.code-spell-checker",
+    "eamodio.gitlens",
+    "humao.rest-client",
+    "yoavbls.pretty-ts-errors",
+    "christian-kohler.path-intellisense",
+    "christian-kohler.npm-intellisense",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag"
+  ]
+}
