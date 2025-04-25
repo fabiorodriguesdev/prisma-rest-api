@@ -77,7 +77,7 @@ src/
 
 When creating a new feature, you'll need to create files in multiple directories following the project's architecture. Here's a complete example of creating a user management feature:
 
-1. First, create a service in `src/services/userService.ts`:
+### 1. First, create a service in `src/services/userService.ts`
 
 ```typescript
 // src/services/userService.ts
@@ -241,7 +241,7 @@ The project uses Prisma as its ORM, and all database models are defined in the `
 
 ### Creating New Models
 
-1. Open `prisma/schema.prisma` and add your new model. Here's an example:
+Open `prisma/schema.prisma` and add your new model. Here's an example:
 
 ```prisma
 // prisma/schema.prisma
@@ -278,7 +278,7 @@ model Post {
 
 After modifying the schema, you need to update the database:
 
-1. Generate the Prisma Client:
+### 1. Generate the Prisma Client
 
 ```bash
 npm run prisma:generate
